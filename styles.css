@@ -1,0 +1,156 @@
+body {
+    background-image: url("images/cubebg.jpg");
+}
+
+label{
+    display: flex;
+    float: left;
+    position: relative;
+    width : 150px;  
+    font-weight: 600;  
+}
+
+footer {
+    background: #212529;
+    color: white;
+    padding: 20px 0 15px 15px ;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    margin: 15px;
+    background-color:rgb(248, 249, 245);
+    border: 2px solid black;
+    border-radius: 10px;
+    min-height: 750px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.shoppingBackground {
+    margin: 15px;
+    background-color:rgb(248, 249, 245);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.heading {
+    padding: 15px;
+    position: relative;
+    min-width: 300px;
+    text-align: center;
+}
+
+.registerLayout{
+    padding: 15px;
+    min-width: -webkit-fill-available;
+    position: relative;
+    font-weight: 600;
+}
+
+.loginLayout{
+    padding: 15px;
+    min-width: -webkit-fill-available;
+    position: relative;
+    font-weight: 600;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+table.products{
+    width:95%;
+}
+
+.product {
+    width: 100%;
+    margin: 15px;
+}
+
+.product td {
+    padding: 3px;
+    max-width: 175px;
+    min-width: 100px;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+    font-weight: 600;
+}
+
+.product img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    min-height: 60px;
+}
+
+.products-list ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.products-list li {
+    width: 33%;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.tile {
+    display: block;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.tile img {
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.products {
+    border: 2px solid black;
+    margin: 15px;
+    width: 100%;
+}
+
+.products thead {
+    border-bottom: 2px solid black;
+    font-weight: 900;
+}
+
+.products td {
+    padding: 3px;
+    max-width: 175px;
+    min-width: 100px;
+    vertical-align: -webkit-baseline-middle;
+    text-align: center;
+    font-weight: 600;
+}
+
+.products img {
+    width: 100%;
+    max-width: 75px;
+    max-height: 100px;
+    min-height: 60px;
+}
+
+a.navbar-brand {
+    padding-left:5px;
+}
+
+li.nav-item {
+    border-right: 1px solid gray;
+    max-height: 40px;
+}
